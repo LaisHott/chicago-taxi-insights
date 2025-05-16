@@ -59,5 +59,32 @@ Clima de novembro de 2017 foi obtido diretamente de:
 - 📊 Testes estatísticos
 
 ---
+### 📁 Estrutura de Diretórios e Arquivos de Dados
+
+📦 chicago-taxi-insights/
+├── 📁 data/
+│ ├── 📄 project_sql_result_01.csv
+│ ├── 📄 project_sql_result_04.csv
+│ └── 📄 project_sql_result_07.csv
+
+
+### 📊 Descrição dos Arquivos de Dados
+
+- `project_sql_result_01.csv`  
+  🔸 Contém:
+  - `trips_amount`: número de corridas para cada empresa de táxi entre os dias **15 e 16 de novembro de 2017**.
+
+- `project_sql_result_04.csv`  
+  🔸 Contém:
+  - `dropoff_location_name`: bairros de Chicago onde as corridas terminaram.  
+  - `average_trips`: número médio de corridas que terminaram em cada bairro durante **novembro de 2017**.
+
+- `project_sql_result_07.csv`  
+  🔸 Contém:
+  - Dados sobre corridas que tiveram **início no Loop** e **destino no Aeroporto Internacional O'Hare**, utilizadas para teste de hipótese sobre duração em sábados chuvosos.
+
+> 💡 Todos os arquivos foram obtidos via consultas SQL durante o projeto e são essenciais para a análise das preferências dos passageiros e o impacto de fatores externos nas corridas de táxi em Chicago.
+
+---
 
 *Projeto desenvolvido como parte da formação em Data Analytics 🎓*
